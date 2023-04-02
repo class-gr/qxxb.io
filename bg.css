@@ -1,0 +1,18 @@
+div{
+width: 1920px;
+
+height: 1200px;
+
+}
+
+.box1{
+background:url(../demo/1.jpg) no-repeat;
+
+}
+
+.box2{
+background:url(../demo/1.jpg) no-repeat;
+
+background-size: 3840px 2160px;
+
+}div
