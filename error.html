@@ -1,0 +1,63 @@
+<!Doctype HTML>
+<html>
+<head>
+
+<meta name="viewport"content="width=device-width,initial-scale=1.0"/>
+<script disable-devtool-auto src="https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js"></script>
+<title>´íÎó</title>
+</head>
+<body background="OMG.png" Ondragstart="return false;" OncOntextmenu="return false;">
+<script>
+//ÍøÕ¾½ûÖ¹Ñ¡ÔñÎÄ×Ö
+    document.body.onselectstart = function() {
+    self.event.returnValue=false
+};
+</script>
+<script>
+	//°´¼ü´¥·¢
+document.onkeydown = function(){
+    //½ûÖ¹ F12
+    if (window.event && window.event.keyCode == 123) {
+    event.keyCode = 0;
+    event.returnValue = false;
+    }
+    }
+</script>
+<script>
+	//°´¼ü´¥·¢
+document.onkeydown = function(){
+    //½ûÖ¹ctrl+u
+    if (event.ctrlKey && window.event.keyCode==85){
+    return false;
+    }
+    }
+</script>
+<script>
+	//°´¼ü´¥·¢
+document.onkeydown = function(){
+	//½ûÖ¹ctrl+s
+    if (event.ctrlKey && window.event.keyCode==83){
+    return false;
+    }
+    }
+</script>
+<script>
+    //ÍøÕ¾½ûÖ¹ÓÒ¼ü
+    document.body.oncontextmenu = function() {
+    self.event.returnValue=false
+};
+</script>
+<script>
+document.ondrop = function(event) {
+return false;
+};
+document.ondragenter  = function(event) {
+return false;
+};
+document.ondragover  = function(event) {
+return false;
+};
+
+</script>
+</body>
+</html>
